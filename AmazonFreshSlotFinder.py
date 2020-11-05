@@ -107,7 +107,7 @@ def autoInputLogin(webdriver) :
 	
 		time.sleep(3)
 		
-		pass_inputbox = email_inputbox = webdriver.find_element_by_id('ap_password')
+		pass_inputbox = webdriver.find_element_by_id('ap_password')
 		pass_inputbox.send_keys(login_pass)
 		pass_inputbox.submit()
 		
